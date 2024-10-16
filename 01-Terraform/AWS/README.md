@@ -1,1 +1,1 @@
-
+Esta es la configuración final para el proyecto para crear una instancia en AWS, usando Terraform como IaC, en el proceso configuré un proveedor usado para terraform y también configuré una VPC, SG, mi IP pública (para acceso de seguridad), clave par y, por supuesto, una instancia EC2.
