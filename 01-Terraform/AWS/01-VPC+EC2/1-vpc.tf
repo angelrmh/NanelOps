@@ -16,10 +16,10 @@ module "vpc" {
   one_nat_gateway_per_az = false
 
   public_subnet_tags = {
-    "Name" = "public-subnet"
+    "Name" = "public-subnets"
   }
 
   private_subnet_tags = {
-    "Name" = "private-subnet"
+    "Name" = "private-subnets"
   }
 }
