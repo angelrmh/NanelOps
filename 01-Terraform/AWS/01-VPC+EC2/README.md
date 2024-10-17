@@ -1,4 +1,4 @@
-Esta es la configuración final para el proyecto de infraestructura TI para crear una instancia EC2 en AWS usando Terraform como IaC, en el proceso configuré un proveedor usado para terraform y también configuré una VPC (Red), un SG (Grupo de Seguridad), mi IP pública (para acceso de seguridad), key pair (llave de acceso SSH) y, por supuesto, una instancia EC2 con SO Ubuntu (VM Maquina Virtual).
+Esta es la configuración final para el proyecto de infraestructura TI para crear una instancia EC2 en AWS usando Terraform como IaC, en el proceso configuré los proveedores AWS y HTTP usados en terraform y también configuré una VPC (Red), un SG (Grupo de Seguridad), mi IP pública (para acceso de seguridad), key pair (llave de acceso SSH) y, por supuesto, una instancia EC2 con SO Ubuntu (VM Maquina Virtual).
 
 Aquí encontrarán los archivos .tf (archivos de extensiones Terraform) por separado, esto lo realicé para un mejor entendimiento y para llevar un orden de configuración de la infraestructura, ya que Terraform tiene la capacidad de leer todos los archivos .tf contenidos en una carpeta por separado y ejecutarlos de manera correcta.
 
@@ -12,7 +12,7 @@ Se configuró una llave de acceso ssh (key pair) para la instancia EC2.
 
 Se configuró una máquina virtual (VM) o (instancia EC2) usando una imagen (AMI Amazon Machine Image) con SO Ubuntu. 
 
-This is the final configuration for the IT infrastructure project to create an EC2 instance on AWS using Terraform as IaC, in the process I configured a provider used for terraform and also configured a VPC (Network), an SG (Security Group), my Public IP (for security access), key pair (SSH access key) and, of course, an EC2 instance with Ubuntu OS (Virtual Machine VM).
+This is the final configuration for the IT infrastructure project to create an EC2 instance on AWS using Terraform as IaC, in the process I configured a providers AWS and HTTP used for terraform and also configured a VPC (Network), an SG (Security Group), my Public IP (for security access), key pair (SSH access key) and, of course, an EC2 instance with Ubuntu OS (Virtual Machine VM).
 
 Here you will find the .tf files (Terraform extension files) separately, I did this for a better understanding and to keep an order of infrastructure configuration, since Terraform has the ability to read all the .tf files contained in a folder separately and execute them correctly.
 
