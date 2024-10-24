@@ -1,5 +1,5 @@
 resource "aws_instance" "my-Terraform-ec2" {
-  count                       = 1
+  #count                       = 1
   ami                         = "ami-04a81a99f5ec58529"
   instance_type               = "t2.micro"
   subnet_id                   = module.vpc.public_subnets[0]
