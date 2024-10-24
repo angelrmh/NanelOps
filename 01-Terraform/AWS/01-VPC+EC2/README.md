@@ -1,4 +1,6 @@
-Esta es la configuración final para el proyecto de infraestructura TI para crear una instancia EC2 en AWS usando Terraform como IaC, en el proceso configuré los proveedores AWS y HTTP usados en terraform y también configuré una VPC (Red), un SG (Grupo de Seguridad), mi IP pública (para acceso de seguridad), key pair (llave de acceso SSH) y, por supuesto, una instancia EC2 con SO Ubuntu (VM Maquina Virtual).
+*Despliegue en AWS de una instancia EC2 con SO Ubuntu usando Terraform como IaC
+
+Esta es la configuración final para el proyecto de infraestructura TI para el despliegue de una instancia EC2 en AWS usando Terraform como IaC, en el proceso configuré los proveedores AWS y HTTP usados en terraform y también configuré una VPC (Red), un SG (Grupo de Seguridad), mi IP pública (para acceso de seguridad), key pair (llave de acceso SSH) y, por supuesto, una instancia EC2 con SO Ubuntu (VM Maquina Virtual).
 
 Aquí encontrarán los archivos .tf (archivos de extensiones Terraform) por separado, esto lo realicé para un mejor entendimiento y para llevar un orden de configuración de la infraestructura, ya que Terraform tiene la capacidad de leer todos los archivos .tf contenidos en una carpeta por separado y ejecutarlos de manera correcta.
 
