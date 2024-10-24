@@ -14,6 +14,8 @@ Se configuró una llave de acceso ssh (key pair) para la instancia EC2.
 
 Se configuró una máquina virtual (VM) o (instancia EC2) usando una imagen (AMI Amazon Machine Image) con SO Ubuntu. 
 
+# Deploy an EC2 instance with Ubuntu OS on AWS using Terraform as IaC
+
 This is the final configuration for the IT infrastructure project to create an EC2 instance on AWS using Terraform as IaC, in the process I configured a providers AWS and HTTP used for terraform and also configured a VPC (Network), an SG (Security Group), my Public IP (for security access), key pair (SSH access key) and, of course, an EC2 instance with Ubuntu OS (Virtual Machine VM).
 
 Here you will find the .tf files (Terraform extension files) separately, I did this for a better understanding and to keep an order of infrastructure configuration, since Terraform has the ability to read all the .tf files contained in a folder separately and execute them correctly.
